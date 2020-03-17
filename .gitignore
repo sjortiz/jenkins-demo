@@ -14,3 +14,32 @@ target/*
 !.vscode/launch.json
 !.vscode/extensions.json
 _site/
+
+# Miscellaneous Hudson litter
+*.log
+*.tmp
+*.old
+*.bak
+*.jar
+*.json
+
+# Generated Hudson state
+/.owner
+/secret.key
+/queue.xml
+/fingerprints/
+/shelvedProjects/
+/updates/
+
+# Tools that Hudson manages
+/tools/
+
+# Extracted plugins
+/plugins/*/
+
+# Job state
+builds/
+workspace/
+lastStable
+lastSuccessful
+nextBuildNumber
